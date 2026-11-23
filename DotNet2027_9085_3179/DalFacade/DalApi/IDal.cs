@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DalApi;
 
-namespace DalFacade.DalApi
+public interface IDal
 {
-    internal interface IDal
-    {
-    }
+    ICustomer Customer { get; }
+    IProduct Product { get; }
+    ISale Sale { get; }
 }

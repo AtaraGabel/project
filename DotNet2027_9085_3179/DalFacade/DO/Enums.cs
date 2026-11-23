@@ -1,5 +1,9 @@
-﻿namespace DalFacade.DO;
+﻿
 
-internal class Enums
-{
-}
+namespace DalFacade.Do;
+
+//internal class Enums
+//{
+
+//}
+
